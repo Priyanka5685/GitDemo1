@@ -40,7 +40,11 @@ public void verifyThatEnteredSearchOptionsareDispledProperly() throws IOExceptio
 	
 	
 	
-	
+
+	@Test
+	public void verifygitBranch1inSearch() {
+		System.out.println(" This is newly added testcase ");
+	}
 	
 	
 	

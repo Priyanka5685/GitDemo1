@@ -109,8 +109,15 @@ sa.assertEquals(actualEmailerror, dataprop.getProperty("emailFeildError"));
 }
 	
 	
+	@Test
+	public void verifygitBranch1() {
+		System.out.println(" This is newly added testcase ");
+	}
 	
-	
+	@Test
+	public void verifygitBranch() {
+		System.out.println(" This is newly added testcase ");
+	}
 	
 	
 	
