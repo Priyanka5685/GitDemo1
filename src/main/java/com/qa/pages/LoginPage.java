@@ -22,7 +22,7 @@ public LoginPage(WebDriver driver) {
 	
 //Actions
 public void clickOnLogin() {
-	
+	login.click();
 }
 	
 	

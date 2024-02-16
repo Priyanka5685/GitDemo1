@@ -10,6 +10,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import com.hdfc.qa.base.BaseTest;
+import com.qa.pages.LoginPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -37,10 +38,10 @@ public class LoginTest extends BaseTest{
 	
 @Test
 public void verifyLoginWithValidCredentilas() throws InterruptedException {
+LoginPage log= new LoginPage(driver);
 
+log.clickOnLogin();
 
-
-driver.findElement(By.xpath("//span[contains(text(),'Login /')]")).click();
 }
 
 

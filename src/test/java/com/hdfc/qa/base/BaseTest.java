@@ -13,6 +13,9 @@ import com.qa.utils.Utilities;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseTest {
+	
+	
+	
  public WebDriver driver;	 public Properties prop; public Properties dataprop;
 
 public  BaseTest() {

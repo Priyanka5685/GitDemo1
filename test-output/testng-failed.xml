@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.hdfc.qa.test.SearchTest">
+      <class name="com.hdfc.qa.test.LoginTest">
         <methods>
-          <include name="verifyThatEnteredSearchOptionsareDispledProperly"/>
-          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginWithValidCredentilas"/>
         </methods>
-      </class> <!-- com.hdfc.qa.test.SearchTest -->
+      </class> <!-- com.hdfc.qa.test.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
